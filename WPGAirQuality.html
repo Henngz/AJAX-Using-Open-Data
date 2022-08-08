@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Parks and Open Space</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Find Parks and Open Space</h1>
+        <form class="search-bar">
+            <input type="text" id="searchBar" placeholder="search" name="searchBar">
+            <button id="btn" type="button"><img src="search.png" alt=""></button>
+        </form>
+        <h2>Try searching for bay, or 23, or 23 Dickson Cres.</h2>
+    </div>
+
+    <div class="tablecontainer">
+        <h1 id="error">Cannot find any parks or open spaces.</h1>
+        <table id="table">
+            <thead id="table-head">
+                <tr>
+                    <th>Park Name</th>
+                    <th>Location</th>
+                    <th>Neighbourhood</th>
+                    <th>District</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">          
+            </tbody>
+        </table>
+    </div>
+  
+    <script src="main.js"></script>
+</body>
+</html>
